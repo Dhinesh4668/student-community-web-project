@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Typography, Card, CardContent, Grid, CardActions, Button } from "@mui/material";
+import './home.css'
 import { useNavigate } from "react-router-dom";
 
 function Dashbord() {
     const navigate = useNavigate();
     return (
-        <Container maxWidth="lg" sx={{ marginTop: 4 }}>
+        <div className="container-home">
+        <Container  maxWidth="lg" sx={{ marginTop: 4 }}>
             <Typography variant="h4" gutterBottom>
                 Welcome TO our Student StudyPlace
             </Typography>
@@ -59,6 +61,7 @@ function Dashbord() {
                 </Grid>
             </Grid>
         </Container>
+        </div>
     );
 }
 

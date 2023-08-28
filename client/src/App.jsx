@@ -6,6 +6,8 @@ import Nav from './app/NavigationBar/Nav'
 import NoteList from './app/Screens/Notes/Notes'
 import Mail from './app/Mail/Mail'
 import Dashbord from './app/Screens/HomeScreen/Dashbord'
+import Editer from './app/Word/Editer'
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,6 +18,7 @@ const App = () => {
       <Route path="/meet" element={<Meet />}/>
       {/* <Route path='/login' element={<Login />} /> */}
       <Route path='/mail' element={<Mail />} />
+      <Route path='/doc' element={<Editer />} />
     </Routes>
     </BrowserRouter>
   )
