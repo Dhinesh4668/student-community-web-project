@@ -31,7 +31,9 @@ function Dashbord() {
                             <Typography variant="body2">
                                 Check your Add your notes and Acces the anywhare.
                                 <CardActions>
-                                    <Button size="medium" onClick={navigate('/notes')}>Click To OPEN</Button>
+                                    <Button size="medium" onClick={()=>{
+                                        navigate('/notes')
+                                    }}>Click To OPEN</Button>
                                 </CardActions>
                             </Typography>
 
@@ -48,7 +50,9 @@ function Dashbord() {
                             The student online meeting system facilitates seamless virtual collaboration among students.<br></br> It enables interactive discussions, project planning, and knowledge sharing.
                             </Typography>
                             <CardActions>
-                                <Button onClick={navigate('/meet')}>Click TO open</Button>
+                                <Button onClick={()=>{
+                                    navigate('/meet')
+                                }}>Click TO open</Button>
                             </CardActions>
                         </CardContent>
                     </Card>

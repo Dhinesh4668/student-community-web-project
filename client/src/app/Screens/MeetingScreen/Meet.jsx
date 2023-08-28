@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import * as React from 'react';
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
 
@@ -25,8 +24,8 @@ export default function App() {
   const roomID = getUrlParams().get('roomID') || randomID(5);
   let myMeeting = async (element) => {
 
- const appID = 32858190;
- const serverSecret = "7951273ed27b49ad6894edb964a2a3c6";
+ const appID = 1759019367;
+ const serverSecret = "7f2f15c6b03c6fa5100af94c9f724f95";
  const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID,  randomID(5),  randomID(5));
 
 
