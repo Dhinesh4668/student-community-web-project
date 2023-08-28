@@ -7,6 +7,7 @@ import NoteList from './app/Screens/Notes/Notes'
 import Mail from './app/Mail/Mail'
 import Dashbord from './app/Screens/HomeScreen/Dashbord'
 import Editer from './app/Word/Editer'
+import PageNotFound from './app/404page/PageNotFound'
 
 const App = () => {
   return (
@@ -19,10 +20,13 @@ const App = () => {
       {/* <Route path='/login' element={<Login />} /> */}
       <Route path='/mail' element={<Mail />} />
       <Route path='/doc' element={<Editer />} />
+      <Route path='/*' element={<PageNotFound />} />
     </Routes>
     </BrowserRouter>
   )
 }
+
+
 
 export default App
 

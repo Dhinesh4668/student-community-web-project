@@ -14,7 +14,6 @@ function Editer() {
         theme="snow" 
         value={value} 
         onChange={setValue}
-        placeholder='write something.......'
         modules={modules}
         formats={formats} 
     />

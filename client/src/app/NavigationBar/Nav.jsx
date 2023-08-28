@@ -122,7 +122,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className='container'>
+    <nav className='nav-container'>
       <div className='left-container'>
         <Link to='/'>
           Student <span>studyPlace</span>
