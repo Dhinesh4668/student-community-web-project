@@ -141,6 +141,13 @@ const Nav = () => {
         >
           Meeting
         </Link>
+        <Link
+          to='/doc'
+          className='menu-item'
+          onClick={handleClick}
+        >
+          Doc
+        </Link>
         <Link to='/notes' className='menu-item'>
           Notes
         </Link>
