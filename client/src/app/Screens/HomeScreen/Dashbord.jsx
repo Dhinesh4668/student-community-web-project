@@ -97,6 +97,26 @@ function Dashbord() {
                         </CardContent>
                     </Card>
                 </Grid>
+
+
+                {/* chat */}
+                <Grid item xs={12} sm={6} md={4}>
+                    <Card>
+                        <CardContent>
+                            <Typography variant="h6" gutterBottom>
+                                Instant Chat for Enrich our knowledge
+                            </Typography>
+                            <Typography variant="body2">
+                            Instant chat for group doubts<br></br> clear questions, collaborative solutions, interactive learning
+                            </Typography>
+                            <CardActions>
+                                <Button onClick={()=>{
+                                    navigate('/chat')
+                                }}>Click TO open</Button>
+                            </CardActions>
+                        </CardContent>
+                    </Card>
+                </Grid>
             </Grid>
         </Container>
         </div>

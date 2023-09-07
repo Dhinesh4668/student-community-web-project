@@ -8,6 +8,7 @@ import Mail from './app/Mail/Mail'
 import Dashbord from './app/Screens/HomeScreen/Dashbord'
 import Editer from './app/Word/Editer'
 import PageNotFound from './app/404page/PageNotFound'
+import Chat from './app/Screens/Chat/Chat'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Route path='/mail' element={<Mail />} />
       <Route path='/doc' element={<Editer />} />
       <Route path='/*' element={<PageNotFound />} />
+      <Route path='/chat' element={<Chat />} />
     </Routes>
     </BrowserRouter>
   )
